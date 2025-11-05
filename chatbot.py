@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, MessagesState
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.messages import HumanMessage, AIMessage
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
